@@ -52,7 +52,7 @@ namespace Assignment4_CS_GUI
             listStatus.Items.Clear();
             string errorMsg = string.Empty;
             lines = fileMngr.ReadFromTextFile(fileName, out errorMsg);
-            lblSource.Text = "The Hobbit";
+            lblSource.Text = "blacksabbath";
             if (lines != null)
             {
                 foreach (string line in lines)
